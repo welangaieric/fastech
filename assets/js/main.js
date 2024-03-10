@@ -260,7 +260,7 @@
     const name = $('#name').val()
     const email = $('#email').val()
     const sendSms = $('#message').val()
-    const phone = `+254110517055`
+    const phone = `+254721852659`
     const message= `Hello, i am ${name}. This message is sent from your website. i would love to book a call regarding ${sendSms}.My phone is ${email}.`
     const data={
       "phone":phone,
