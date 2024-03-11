@@ -965,8 +965,8 @@ section {
   color: #fff;
 }
 .cta-btn-container img{
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   object-fit: contain;
 }
 
@@ -986,6 +986,10 @@ section {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+  }.cta-btn-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 }
 
