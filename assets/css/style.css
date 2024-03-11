@@ -12,6 +12,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: #e0eaf5;;
 }
 
 a {
@@ -75,7 +76,7 @@ h6 {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background:white;
+  background:#2e77ae;
   padding: 80px 0 60px 0;
 
 }
@@ -83,9 +84,9 @@ h6 {
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: rgba(40, 58, 90, 0.9) !important;
+  /* color: rgba(40, 58, 90, 0.9) !important; */
 
-  /* color: #fff; */
+  color: #fff;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
@@ -94,8 +95,8 @@ h6 {
   padding: 0;
   margin: 0 0 20px 0;
   font-size: 15px;
-  /* color: rgba(255, 255, 255, 0.8); */
-  color: rgba(40, 58, 90, 0.9) !important;
+  color: rgba(255, 255, 255, 0.8);
+  /* color: rgba(40, 58, 90, 0.9) !important; */
 
 }
 
@@ -155,6 +156,9 @@ h6 {
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #header .logo a {
@@ -297,6 +301,12 @@ h6 {
     left: -100%;
   }
 }
+@media screen and (max-width:678px) {
+  .logo a{
+    display: none;
+  }
+  
+}
 
 /**
 * Mobile Navigation 
@@ -416,7 +426,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #37517e;
+  background: #2e77ae;
 }
 
 #hero .container {
@@ -448,11 +458,11 @@ h6 {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: #47b2e4;
+  background: #ff8e2b;
 }
 
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: #ffb87a;
 }
 
 #hero .btn-watch-video {
@@ -537,6 +547,9 @@ h6 {
     transform: translateY(-10px);
   }
 }
+i{
+  color:#ff8e2b !important;
+}
 
 /*--------------------------------------------------------------
 # Sections General
@@ -545,14 +558,16 @@ section {
   padding: 60px 0;
   overflow: hidden;
 }
-
+/* 
 .section-bg {
-  background-color: #f3f5fa;
-}
+  background-color: #fffbf0;
+} */
 
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  
+
 }
 
 .section-title h2 {
@@ -562,7 +577,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #37517e;
+  color: #0d2137;
 }
 
 .section-title h2::before {
@@ -663,14 +678,14 @@ section {
   border-radius: 4px;
   transition: 0.3s;
   line-height: 1;
-  color: #47b2e4;
+  color: #ff8e2b;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #47b2e4;
+  border: 2px solid #ff8e2b;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #47b2e4;
+  background: #ff8e2b;
   color: #fff;
   text-decoration: none;
 }
@@ -1250,13 +1265,16 @@ section {
   font-family: "Jost", sans-serif;
   margin-bottom: 25px;
 }
+.bi-arrow-up-short{
+  color: white !important;
+}
 
 .pricing h4 sup {
   font-size: 28px;
 }
 
 .pricing h4 span {
-  color: #47b2e4;
+  color: #ff8e2b;
   font-size: 18px;
   display: block;
 }
