@@ -305,6 +305,9 @@ h6 {
   .logo a{
     display: none;
   }
+  .packages{
+    gap: 10px;
+  }
   
 }
 
